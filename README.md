@@ -14,26 +14,11 @@ Useful for learning cybersecurity basics and testing services on your own infras
 
 ## Preview
 
-╔═══════════════════════════════════════════════════════╗
-║              What would you like to do?               ║
-║                                                       ║
-║                     1. Quick Scan                     ║
-║                     2. Full Scan                      ║
-╚═══════════════════════════════════════════════════════╝
- → 1
+![image](https://github.com/user-attachments/assets/67a6a7d8-2bdc-4193-bbc6-ef5bcceb52f7)
 
- Scanning 10 ports on: example.com
- ☑ Port 80 open (HTTP) - Banner: HTTP/1.1 200 OK
- ☒ Port 22 closed (SSH)
+![image](https://github.com/user-attachments/assets/2139886c-8dd3-4c5b-b9c6-6027c00af39d)
 
- HTTP Headers of: example.com
- ☒ missing - Content-Security-Policy: Protects against XSS
- ☑ present - X-Frame-Options: Protects against clickjacking
-
-╔══════════════════════════════════════════════════════╗
-║   Open ports summary of: example.com                ║
-║     ✓ 80: HTTP - Banner: HTTP/1.1 200 OK            ║
-╚══════════════════════════════════════════════════════╝
+![image](https://github.com/user-attachments/assets/e0ed052a-dd1d-4913-b9eb-05453c8534cf)
 
 ---
 
@@ -71,18 +56,6 @@ Useful for learning cybersecurity basics and testing services on your own infras
 
 ---
 
-## Project Structure
-
-cybersec-scanner/
-├── main.py               # Main script with menu and control flow
-├── port_scan.py          # Port scanning and banner grabbing logic
-├── headers_http.py       # HTTP header analysis
-├── utils.py              # Utility functions (e.g., screen clear, printing)
-├── requirements.txt      # Python dependencies
-└── README.md             # Project info
-
----
-
 ## Disclaimer
 
 This tool is for educational and authorized testing purposes only.  
@@ -97,7 +70,7 @@ Feel free to use it as a base to learn Python, sockets, HTTP, and ethical hackin
 
 ---
 
-## TODO (Suggestions)
+## TODO
 
 - Export scan report to .txt
 - Add multithreading for faster scans
