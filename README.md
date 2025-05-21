@@ -80,14 +80,14 @@ Useful for learning cybersecurity basics and testing services on your own infras
 
 1. Clone the repository
 
-   git clone https://github.com/steinluiz/cybersec-scanner.git
+   git clone https://github.com/steinluiz/Cybersec.git
    cd cybersec-scanner
 
-2. Install dependencies
+3. Install dependencies
 
    pip install -r requirements.txt
 
-3. Run the scanner
+4. Run the scanner
 
    python main.py
 
