@@ -80,7 +80,7 @@ Useful for learning cybersecurity basics and testing services on your own infras
 
 1. Clone the repository
 
-   git clone https://github.com/yourusername/cybersec-scanner.git
+   git clone https://github.com/steinluiz/cybersec-scanner.git
    cd cybersec-scanner
 
 2. Install dependencies
