@@ -81,7 +81,8 @@ Useful for learning cybersecurity basics and testing services on your own infras
 1. Clone the repository
 
    git clone https://github.com/steinluiz/Cybersec.git
-   cd cybersec-scanner
+   cd Cybersec
+  
 
 3. Install dependencies
 
